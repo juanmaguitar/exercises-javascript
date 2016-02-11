@@ -30,18 +30,6 @@ Write a program that writes in the console all the multiples of 23 less than 500
     391 414 437 460 483
     Sum : 5313
 
-### `max()` function
-
-Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
-
-### `maxOfThree()` function
-
-Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
-
-### `isVowel()` function
-
-Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
-
 ### Hexadecimal 
 
 Writes a function that convert a hexadecimal color, "blue" for example "#0000FF" in its RGB representation rgb(0,0,255)". Give the function the name getRGB() and test it with this code
