@@ -18,10 +18,6 @@ _Hint: https://msdn.microsoft.com/en-us/library/2yfce773(v=vs.94).aspx_
 
 Write a function that writes in the console the multiplication table (in one column) of any number passed as parameter
 
-### Multiplications table on demand enhanced
-
-Improves the previous exercise to return as many columns as parameters are passed as parameters
-
 ### Calculation
 
 Write a program that writes in the console all the multiples of 23 less than 500 and at the end writes the sum of all of them
