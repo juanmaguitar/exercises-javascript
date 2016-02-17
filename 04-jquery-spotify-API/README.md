@@ -8,7 +8,14 @@ Create an app that:
 - When clicking an album it should show a list of tracks
 - When clicking a track it should reproduce a preview of the song (30'')
 
-Hints:
-- https://developer.spotify.com/web-api/search-item/
-- https://developer.spotify.com/web-api/console/get-search-item/?q=tania+bowra&type=artist#complete
-- `https://api.spotify.com` 
+Resources:
+- __https://api.spotify.com__
+    + https://developer.spotify.com/web-api/search-item/
+    + https://developer.spotify.com/web-api/console/get-search-item/?q=tania+bowra&type=artist#complete
+
+
+```
+    https://api.spotify.com/v1/search?type=artist&query=<ARTIST-NAME>
+    https://api.spotify.com/v1/artists/<ID-ARTIST>/albums
+    https://api.spotify.com/v1/albums/<ID-ALBUM>/tracks
+```
