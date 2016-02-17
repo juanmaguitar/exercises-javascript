@@ -13,8 +13,9 @@ Resources:
     + https://developer.spotify.com/web-api/search-item/
     + https://developer.spotify.com/web-api/console/get-search-item/?q=tania+bowra&type=artist#complete
 
-
+Hints: 
 ```
+    dataType: "json"
     https://api.spotify.com/v1/search?type=artist&query=<ARTIST-NAME>
     https://api.spotify.com/v1/artists/<ID-ARTIST>/albums
     https://api.spotify.com/v1/albums/<ID-ALBUM>/tracks
