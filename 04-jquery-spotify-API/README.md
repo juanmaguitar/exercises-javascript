@@ -9,9 +9,10 @@ Create an app that:
 - When clicking a track it should reproduce a preview of the song (30'')
 
 Resources:
-- __https://api.spotify.com__
+- __https://developer.spotify.com/web-api/__
     + https://developer.spotify.com/web-api/search-item/
-    + https://developer.spotify.com/web-api/console/get-search-item/?q=tania+bowra&type=artist#complete
+    + https://developer.spotify.com/web-api/get-artists-albums/
+    + https://developer.spotify.com/web-api/get-albums-tracks/
 
 Hints: 
 ```
