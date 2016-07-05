@@ -1,4 +1,4 @@
-#Javascript Exercises
+# Javascript Exercises
 
 ## Calculator
 
