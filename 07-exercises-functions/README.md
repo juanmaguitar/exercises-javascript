@@ -1,4 +1,4 @@
-# Super Extra Challenges 
+# Exercises (Functions)
 
 ## Fibonacci Challenge
 
