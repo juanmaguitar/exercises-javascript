@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Cards</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.css">
+
+	<style>
+		.container	{ margin-top:50px; }
+		.full-name, .gender, .address {  text-transform: capitalize; }
+		.profile-image { margin:10px; }
+		.nationality i { margin-right: 5px; }
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5  toppad  pull-right col-md-offset-3 ">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+
+				<p class="text-info text-right now"></p>
+
+					<div class="panel panel-info">
+						<!-- CARD HEADING -->
+						<div class="panel-heading">
+
+							<h3 class="panel-title full-name"></h3>
+						</div>
+
+						<!-- CARD BODY -->
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-3 col-lg-3 " align="center">
+									<img alt="User Pic" src="" class="img-circle img-responsive img-thumbnail  profile-image">
+								</div>
+
+								<div class=" col-md-9 col-lg-9 ">
+									<table class="table table-user-information">
+										<tbody>
+											<tr>
+												<td>Registration Date:</td>
+												<td class="registration-date"></td>
+											</tr>
+											<tr>
+												<td>Date of Birth</td>
+												<td class="born-date"></td>
+											</tr>
+											<tr>
+												<td>Nationality</td>
+												<td class="nationality"><i></i><span></span></td>
+											</tr>
+
+											<tr>
+												<td>Gender</td>
+												<td class="gender"></td>
+											</tr>
+												<tr>
+												<td>Home Address</td>
+												<td class="address"></td>
+											</tr>
+											<tr>
+												<td>Email</td>
+												<td><a class="email"></a></td>
+											</tr>
+												<td>Phone Number</td>
+												<td class="phone"></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+							<div class="panel-footer text-center">
+									<a href="#" class="get-profile btn btn-primary">Get Random Profile</a>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script>
+		var countries = {
+			AU: "Australia",
+			BR: "Brazil",
+			CA: "Canada",
+			CH: "Switzerland",
+			DE: "Germany",
+			DK: "Denmark",
+			ES: "Spain",
+			FI: "Finland",
+			FR: "France",
+			GB: "United Kingdom",
+			IE: "Ireland",
+			IR: "Iran",
+			NL: "Netherlands",
+			NZ: "New Zealand",
+			TR: "Turkey",
+			US: "United States of America"
+		}
+	</script>
+	<script src="main.js"></script>
+</body>
+</html>
