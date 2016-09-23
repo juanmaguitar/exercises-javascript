@@ -4,7 +4,7 @@ Create an app that:
 
 - Allow us to search for an artist
 - It should show a list of artists found
-- When clicking an album it should show a list of albums
+- When clicking an artist it should show a list of albums
 - When clicking an album it should show a list of tracks
 - When clicking a track it should reproduce a preview of the song (30'')
 
