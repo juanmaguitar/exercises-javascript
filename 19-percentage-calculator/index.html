@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Percentage Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+		.container {
+			border:1px solid #aaa;
+			width: 75%;
+			margin-top:30px;
+			padding: 20px;
+			border-radius: 10px;
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+
+	<section>
+
+
+      <form id="f1" action="#" class="form-group">
+        <fieldset class="row">
+					<div class="col-md-6 ">
+						<p>What is <input id="f1-a" type="text" size="3">% of <input id="f1-b" type="text" size="7">?</p>
+					</div>
+					<div class="col-md-6">
+	          <button id="f1-calculate" class="btn btn-primary">Calculate</button>
+						<!-- result = a / 100 * b; -->
+	          <input id="f1-result" type="text" size="7" readonly="readonly">
+	          <span class="remove">%</span>
+					</div>
+        </fieldset>
+      </form>
+
+
+      <form id="f2" action="#" class="form-group">
+        <fieldset class="row">
+					<div class="col-md-6">
+						<p><input id="f2-a" type="text" size="5"> is what percent of <input id="f2-b" type="text" size="5">?</p>
+					</div>
+					<div class="col-md-6">
+	          <button id="f2-calculate" class="btn btn-primary">Calculate</button>
+	          <!-- result = a / b * 100; -->
+          	<input id="f2-result" type="text" size="7" readonly="readonly">
+          	<span>%</span>
+					</div>
+        </fieldset>
+      </form>
+
+      <form id="f3" action="#" class="form-group">
+        <fieldset class="row">
+					<div class="col-md-6">
+						<p>What is the percentage increase/decrease<br>from <input id="f3-a" type="text" size="6"> to <input id="f3-b" type="text" size="6">?</p>
+					</div>
+					<div class="col-md-6">
+	          <button id="f3-calculate" class="btn btn-primary">Calculate</button>
+	          <!-- result = (b - a) / a  * 100; -->
+	          <input id="f3-result" type="text" size="7" readonly="readonly">
+	          <span>%</span>
+					</div>
+        </fieldset>
+      </form>
+
+      <p id="tips"><strong>Tips:</strong> Use tab to move to the next field. Use shift-tab to move to the previous field. Press enter to calculate.</p>
+    </section>
+
+</div>
+
+	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+</body>
+</html>
