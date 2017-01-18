@@ -57,9 +57,9 @@ Define a function called ​`isString`​ that receives a value and return `true
 Define a function called ​`isBoolean`​ that receives a value and return `true` if the value received is a boolean
 
 ```javascript
-   isString(3) // false
-   isString("true") // false
-   isString(true) // true
+   isBoolean(3) // false
+   isBoolean("true") // false
+   isBoolean(true) // true
 ```
 
 ## encodeWord
